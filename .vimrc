@@ -151,3 +151,12 @@ set nowrap
 
 "定义快捷键的前缀，即<Leader>
 let mapleader=";"
+
+"Python特殊设置
+autocmd Filetype python setlocal ts=4 sts=4 sw=4
+
+"Ruby特殊设置
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+
+"Javascript特殊设置
+autocmd Filetype javascirpt setlocal ts=4 sts=4 sw=4
