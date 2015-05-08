@@ -161,3 +161,7 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 
 "Javascript特殊设置
 autocmd Filetype javascirpt setlocal ts=4 sts=4 sw=4
+
+"Fix the inserting two curly braces causes automatic line break by autoclose plugin
+imap {{ {{}}<Esc>hi
+"imap {{ {{  }}<Esc>hhi
