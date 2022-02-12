@@ -1,0 +1,5 @@
+env:
+  TERM: alacritty
+  LIBGL_ALWAYS_SOFTWARE: "1"
+font:
+  size: 14.0
